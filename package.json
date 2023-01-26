@@ -1,6 +1,6 @@
 {
     "name": "@pigjs/request",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "前端通用请求库，兼容 web/h5/weapp",
     "keywords": [
         "request"

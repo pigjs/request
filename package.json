@@ -16,6 +16,14 @@
         "package.json",
         "README.md"
     ],
+    "homepage": "https://github.com/pigjs/request#readme",
+    "bugs": {
+        "url": "https://github.com/pigjs/request/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pigjs/request"
+    },
     "scripts": {
         "build": "father-build",
         "commit-msg": "pig-fabric --hooks=commit-msg",
@@ -25,7 +33,8 @@
         "pig-fabric:install": "pig-fabric install",
         "pre-commit": "pig-fabric --hooks=pre-commit && lint-staged",
         "pre-merge-commit": "pig-fabric --hooks=pre-merge-commit",
-        "prepare": "npx husky install"
+        "prepare": "npx husky install",
+        "pub": "npm publish --access public"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,less,css,md}": "pretty-quick --staged",
